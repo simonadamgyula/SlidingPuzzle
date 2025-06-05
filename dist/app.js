@@ -1,6 +1,6 @@
 import { Number } from "./number.js";
 const gridElement = document.querySelector("#puzzle-grid");
-const size = 4;
+const size = 10;
 window.onload = () => {
     Number.size = size;
     createGrid();

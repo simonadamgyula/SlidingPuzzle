@@ -2,7 +2,7 @@ import { Number } from "./number.js";
 
 const gridElement = document.querySelector("#puzzle-grid")!;
 
-const size: number = 4;
+const size: number = 10;
 
 window.onload = () => {
     Number.size = size;
